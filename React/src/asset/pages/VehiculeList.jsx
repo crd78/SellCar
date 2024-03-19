@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import '../css/VehiculeList.css';
 
 
 function VehiculeList() {
