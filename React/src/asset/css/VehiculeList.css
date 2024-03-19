@@ -1,0 +1,68 @@
+img {
+  width: 200px;
+  height: 120px;
+  display: block;  
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.Tarif
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modele-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-wrap: wrap; 
+}
+
+
+.modele-item{
+  padding: 3rem;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modele-item:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  background-color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("/src/asset/images/background.jpg");
+  background-attachment: fixed;
+  width: auto;
+  height: auto;
+}
+
+.marque:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+
