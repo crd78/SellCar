@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 .bodyHome {
     padding: 0;
@@ -47,16 +48,28 @@ body{
     border-radius: 10px;
 }
 
+.gammeContainer {
+    background-image: url("/src/asset/images/backgroundgamme.jpg");
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .contentGamme {
     display:block;
     align-items: center;
     text-align: center;
-    margin-left:100px;
-    margin-right: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 10px;
-    padding: 10px 100px;
+    padding: 10px 10px;
     background-color: #333;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
+
 .h3Home {
     color: white;
     font-size: 20px;
@@ -72,5 +85,6 @@ body{
     text-align: center;
     margin-left: 10px;
 }
+
 
 
