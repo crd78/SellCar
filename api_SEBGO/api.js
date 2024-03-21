@@ -113,7 +113,7 @@ allUser = () =>{
 };
 
 // Route de login
-app.post('/login', (req, res) => {
+app.post('/auth/login', (req, res) => {
   const { username, password } = req.body;
 
   // Vérification si l'utilisateur existe dans la base de données

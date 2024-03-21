@@ -1,0 +1,66 @@
+/* Base styles for a clean and modern look */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Center form vertically */
+    background-color: #f0f0f0; /* Light background for better readability */
+    padding: 2rem;
+    border-radius: 5px; /* Gentle rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Group styles for consistent layout */
+  .group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Allow full width for labels and inputs */
+  }
+  
+  /* Label styles for clarity */
+  label {
+    font-size: 0.8rem; /* Adjust font size as needed */
+    margin-bottom: 0.5rem;
+    color: #333; /* Darker text for better contrast */
+  }
+  
+  /* Input styles for user-friendliness */
+  input[type="text"],
+  input[type="password"] {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc; /* Light border for visibility */
+    border-radius: 3px; /* Rounded corners for a polished look */
+    font-size: 1rem; /* Adjust font size as needed */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Focus styles for highlighting active input */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #333; /* Green border on focus */
+  }
+  
+  /* Button styles for a clear call to action */
+  button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #333; /* Primary color for button */
+    color: #fff; /* Light text for contrast */
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 145, 0);; /* Darker shade on hover */
+  }
+  
