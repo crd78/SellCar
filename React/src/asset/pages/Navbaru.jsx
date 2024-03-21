@@ -6,7 +6,7 @@ const Navbaru = () => {
         <nav>
             <div className="container">
                 <nav className="navbar">
-                    <a href="./">Accueil</a>
+                    <a href="/">Accueil</a>
                     <a href="/vehicule">Catalogue</a>
                     <a href="/Auth/login">Connexion</a>
                 </nav>
