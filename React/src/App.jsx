@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import VehiculeList from './asset/pages/VehiculeList';
 import Home from './asset/pages/Home';
-import Navbar from './asset/components/Navbar'; // Corrected import statement
+import Navbar from './asset/pages/Navbaru'; // Corrected import statement
 
 
 function App() {

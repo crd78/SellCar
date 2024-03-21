@@ -1,13 +1,15 @@
-import  '../css/Home.css';
+import '../css/Navbar.css';
+
 
 const Navbaru = () => {
     return (
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
+            <div className="container">
+                <nav className="navbar">
+                    <a href="./">Accueil</a>
+                    <a href="/vehicule">Catalogue</a>
+                </nav>
+            </div>
         </nav>
     );
 };

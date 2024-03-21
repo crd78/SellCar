@@ -20,10 +20,9 @@ function VehiculeList() {
   }, []);
 
   return (
-
+      
     <div className='bodyVehicule'>
       
-      <h1 className="modele-list-title">Liste des modèles</h1>
       <div className="modele-list-container">
         {models.length > 0 ? (
           models.map((model,) => (
