@@ -2,11 +2,13 @@ import '../css/Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Bienvenue sur SellCar</h1>
-            <p>Explorez notre sélection de voitures d occasion de haute qualité.</p>
+        <div className='bodyHome'>
+            <div className='headerHome'>
+                <h1 className='h1Home'>Bienvenue sur SellCar</h1>
+              
 
-            <img src='../images/home.jpeg'/>
+                <img className='imgHome' src='../src/asset/images/home.jpeg'/>
+            </div>
         </div>
     );
 };
