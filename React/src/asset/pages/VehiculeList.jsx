@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-
+import '../css/VehiculeList.css';
 
 
 function VehiculeList() {
+
   const [models, setModels] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
@@ -19,9 +20,9 @@ function VehiculeList() {
   }, []);
 
   return (
-    <div>
       
-      <h1 className="modele-list-title">Liste des modèles</h1>
+    <div className='bodyVehicule'>
+      
       <div className="modele-list-container">
         {models.length > 0 ? (
           models.map((model,) => (
