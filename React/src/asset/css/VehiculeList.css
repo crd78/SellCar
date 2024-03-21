@@ -4,7 +4,9 @@ img {
   height: 120px;
   display: block;  
 }
-
+.marque{
+ text-align: center;
+}
 .Tarif
 {
   font-size: 20px;
