@@ -8,6 +8,7 @@ const Navbaru = () => {
                 <nav className="navbar">
                     <a href="./">Accueil</a>
                     <a href="/vehicule">Catalogue</a>
+                    <a href="/Auth/login">Connexion</a>
                 </nav>
             </div>
         </nav>
