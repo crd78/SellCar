@@ -31,5 +31,46 @@ body{
     color: rgb(255, 145, 0);
     flex-basis: auto;
     line-height: 150%;
-   
 }
+.imgGamme {
+    display:inline-block;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.imgGamme2 {
+    display:inline-block;
+    margin-left: 10px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.contentGamme {
+    display:block;
+    align-items: center;
+    text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 10px 100px;
+    background-color: #333;
+}
+.h3Home {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+.pGamme{
+    display: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
