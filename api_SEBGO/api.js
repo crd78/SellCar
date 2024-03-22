@@ -155,10 +155,10 @@ app.get('/modele', (req, res) => {
 
 // Création d'un model
 app.post('/createModel', (req, res) => {
-    const { marque, année, model, tarif, photo } = req.body;
-    const query = "INSERT INTO modele (marque, année, model, tarif, photo) VALUES (?, ?, ?, ?, ?)";
+    const { marque, annee, model, tarif, photo } = req.body;
+    const query = "INSERT INTO modele (marque, annee, model, tarif, photo) VALUES (?, ?, ?, ?, ?)";
 
-    db.query(query, [marque, année, model, tarif, photo], (err, results) => {
+    db.query(query, [marque, annee, model, tarif, photo], (err, results) => {
         if (err) {
             console.error(err);
             res.status(500).send("Erreur lors de la création du modèle");

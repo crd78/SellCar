@@ -4,7 +4,7 @@ import './AjoutVehicule.css';
 function AjoutVehicule  ()  {
     const [marque, setMarque] = useState('');
     const [model, setModele] = useState('');
-    const [année, setAnnee] = useState('');
+    const [annee, setAnnee] = useState('');
     const [tarif, setTarif] = useState('');
     const [photo, setPhoto] = useState('');
 
@@ -13,7 +13,7 @@ function AjoutVehicule  ()  {
 
         const newVehicule = {
             marque,
-            année,
+            annee,
             model,
             tarif,
             photo
@@ -61,7 +61,7 @@ function AjoutVehicule  ()  {
                 </label>
                 <label className="ajout-vehicule-label">
                     Année:
-                    <input className="ajout-vehicule-input" type="int" name="annee" value={année} onChange={(e) => setAnnee(e.target.value)} />
+                    <input className="ajout-vehicule-input" type="int" name="annee" value={annee} onChange={(e) => setAnnee(e.target.value)} />
                 </label>
                 <label className="ajout-vehicule-label">
                     Prix:
