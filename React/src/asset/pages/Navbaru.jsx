@@ -1,6 +1,5 @@
 import '../css/Navbar.css';
 
-
 const Navbaru = () => {
     return (
         <nav>

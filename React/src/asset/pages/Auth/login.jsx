@@ -6,8 +6,8 @@ import './login.css'
 const Login = () => {
     let navigate = useNavigate();
     const [credentials, setCredentials] = useState({
-        username:'caca',
-        password:'pipi'
+        username:'',
+        password:''
     })
 
     const onChange = (e) => {

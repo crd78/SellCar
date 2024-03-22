@@ -1,32 +1,24 @@
 import { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import VehiculeList from '../VehiculeList';
+import PropTypes from 'prop-types';
+
+AdminView.propTypes = {
+    models: PropTypes.array,
+    setModels: PropTypes.func
+};
 
 function AdminView({ models, setModels }) {
     const [newModel, setNewModel] = useState('');
     const [editModel, setEditModel] = useState(null);
 
-    AdminView.propTypes = {
-        models: PropTypes.array.isRequired,
-        setModels: PropTypes.func.isRequired,
-    };
-
     const fetchModels = async () => {
-        const response = await fetch('http://localhost:3000/modele');
-        const fetchedModels = await response.json();
-        setModels(fetchedModels);
+        await fetch('http://localhost:3000/modele');
+       
     };
 
     useEffect(() => {
         fetchModels();
     }, []);
-
-    const handleAddModel = () => {
-        if (newModel.trim() !== '') {
-            setModels([...models, newModel]);
-            setNewModel('');
-        }
-    };
 
     const handleEditModel = (index) => {
         setEditModel(index);
@@ -58,7 +50,7 @@ function AdminView({ models, setModels }) {
                 value={newModel}
                 onChange={(e) => setNewModel(e.target.value)}
             />
-            <button onClick={handleAddModel}>Add Model</button>
+            <button onClick={() => (window.location.href = './AjoutVehicule')}>Add Model</button>
             <button onClick={handleUpdateModel}>Update Model</button>
             <ul>
                 {models && models.map((model, index) => (

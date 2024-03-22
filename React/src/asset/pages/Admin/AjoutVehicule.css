@@ -1,0 +1,27 @@
+.ajout-vehicule-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajout-vehicule-label {
+    margin-bottom: 10px;
+}
+
+.ajout-vehicule-input {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.ajout-vehicule-submit {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="int"] {
+    width: 100%;
+    box-sizing: border-box;
+}

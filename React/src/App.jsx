@@ -4,6 +4,7 @@ import Home from './asset/pages/Home';
 import Navbar from './asset/pages/Navbaru'; // Corrected import statement
 import AuthRouter from './asset/pages/Auth/AuthRouter';
 import AdminView from './asset/pages/Admin/AdminView';
+import AjoutVehicule from './asset/pages/Admin/AjoutVehicule'
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/vehicule" element={<VehiculeList />} />
           <Route path="/Auth/*" element={<AuthRouter />} />
           <Route path="/Admin/AdminView" element={<AdminView />} />
+          <Route path="/Admin/AjoutVehicule" element={<AjoutVehicule />} />
         </Routes>
       </Router>
     </div>
